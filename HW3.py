@@ -31,8 +31,25 @@ if number1 == number2:
 elif number1 < number2:
     print(number1, number2)
 else:
-#     print(number2, number1)
+    print(number2, number1)
 
+# Користувач вводить два числа та матем дію: + - * або /
+# Залежно від введеної матем дії вивести результат
 
+number1 = int(input())
+number2 = int(input())
+
+action = input("Choose your action from this 4 options: + - * /")
+match action:
+    case "+":
+        print(number1 + number2)
+    case "-":
+        print(number1 - number2)
+    case "*":
+        print(number1 * number2)
+    case "/":
+        print(number1 / number2)
+    case _:
+        print("TRY AGAIN")
 
 
