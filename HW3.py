@@ -20,3 +20,19 @@ match user_select:
     case _:
         print("Incorrect menu item")
 
+# 2. Користувач вводить два числа.
+# Визначити, чи рівні ці числа, і, якщо ні, вивести їх на екран у порядку зростання.
+
+number1 = int(input())
+number2 = int(input())
+
+if number1 == number2:
+    print("equals")
+elif number1 < number2:
+    print(number1, number2)
+else:
+#     print(number2, number1)
+
+
+
+
